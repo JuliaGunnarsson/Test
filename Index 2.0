@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="sv">
+	<head>
+			<title>
+				Min lilla testsajt
+			</title>
+	</head>
+
+	<body>
+			<h1>
+				Önskemål
+	    	</h1>
+      <p>
+        <form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="name">Namn:</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+      <br>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" />
+    </div>
+    <div>
+      <br>
+        <label for="msg">Vad önskas?</label>
+        <br>
+        <textarea id="msg"></textarea>
+    </div>
+</form>
+      </p>
+    <button>Skicka</button>
+	</body>
+</html>
